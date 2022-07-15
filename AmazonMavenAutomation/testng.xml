@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite123">
+<listeners>
+<listener class-name="extendReport.ExtentTestNGIReporterListener"></listener>
+</listeners>
+<test name="ChromeBrowser">
+    		<parameter name="browserName" value="Chrome"/>
+  
+    <classes>
+      <class name="test.ToVerifyWatchbuttonTestNG"/>
+      <class name="test.ExtendReportclass"/>
+      
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite123 -->

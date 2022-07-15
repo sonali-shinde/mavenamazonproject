@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="ChromeBrowser(failed)">
+    <parameter name="browserName" value="Chrome"/>
+    <classes>
+      <class name="test.ToVerifyWatchbuttonTestNG">
+        <methods>
+          <include name="toVerifyWatch"/>
+          <include name="clearObject"/>
+          <include name="toVerifyFashionButton"/>
+          <include name="createPOMOjects"/>
+          <include name="launchBrowser"/>
+          <include name="toVerifyMobiles"/>
+          <include name="signinToApplication"/>
+          <include name="closedBrowser"/>
+          <include name="signOutApplication"/>
+        </methods>
+      </class> <!-- test.ToVerifyWatchbuttonTestNG -->
+    </classes>
+  </test> <!-- ChromeBrowser(failed) -->
+</suite> <!-- Failed suite [Suite] -->
