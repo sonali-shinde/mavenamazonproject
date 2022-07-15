@@ -14,12 +14,12 @@ public class Header {
 	@FindBy (xpath="(//a[text()='Mobiles'])[1]")
 	private WebElement mobiles;
 	
-	@FindBy (xpath="(//a[text()='Customer Service'])[1]")
-	private WebElement customerService;
-	
-	@FindBy (xpath="//a[@data-csa-c-slot-id='nav_cs_3']")
-	private WebElement todaysDeal;
-	
+//	@FindBy (xpath="(//a[text()='Customer Service'])[1]")
+//	private WebElement customerService;
+//	
+//	@FindBy (xpath="//a[@data-csa-c-slot-id='nav_cs_3']")
+//	private WebElement todaysDeal;
+//	
 	@FindBy (xpath="//a[text()='Fashion']")
 	private WebElement fashion;
 	
